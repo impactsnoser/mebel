@@ -5,15 +5,15 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
   color: #1a1a1a;
 }
 
+
 .center {
-  max-width: 780px;
+  max-width: 660px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 
@@ -23,7 +23,8 @@ header {
   left: 0;
   right: 0;
   z-index: 10;
-  padding: 28px 0;
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 header .center {
@@ -33,39 +34,39 @@ header .center {
 }
 
 .logo {
-  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
   text-decoration: none;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
 }
 
 nav {
   display: flex;
-  gap: 32px;
+  gap: 28px;
 }
 
 nav a {
+  font-family: 'Raleway', sans-serif;
   color: #fff;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
-  opacity: 0.92;
-  transition: opacity 0.2s;
 }
 
 nav a:hover {
-  opacity: 1;
+  text-decoration: underline;
 }
 
 
 .hero {
   position: relative;
   height: 420px;
-  background-image: url('../images/hero-bg.jpg'),
-    linear-gradient(135deg, #8a9e8a 0%, #c4b49a 50%, #a8977e 100%);
+  background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
+  background-color: #9aaa97;
   display: flex;
   align-items: flex-end;
 }
@@ -76,8 +77,8 @@ nav a:hover {
   inset: 0;
   background: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0.55) 0%,
-    rgba(0, 0, 0, 0.15) 70%,
+    rgba(0, 0, 0, 0.50) 0%,
+    rgba(0, 0, 0, 0.10) 65%,
     transparent 100%
   );
 }
@@ -85,7 +86,7 @@ nav a:hover {
 .hero-content {
   position: relative;
   z-index: 2;
-  padding: 0 0 52px 0;
+  padding-bottom: 56px;
   width: 100%;
 }
 
@@ -96,27 +97,29 @@ nav a:hover {
 }
 
 .hero h1 {
-  font-size: 42px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
   font-weight: 700;
   color: #fff;
-  line-height: 1.15;
-  max-width: 480px;
-  margin-bottom: 10px;
+  line-height: 1.2;
+  max-width: 420px;
+  margin-bottom: 8px;
 }
 
 .hero-subtitle {
-  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   color: rgba(255, 255, 255, 0.85);
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   font-weight: 400;
 }
 
 .hero-link {
-  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
   color: rgba(255, 255, 255, 0.75);
   text-decoration: underline;
   text-underline-offset: 3px;
-  transition: color 0.2s;
 }
 
 .hero-link:hover {
@@ -125,61 +128,67 @@ nav a:hover {
 
 
 .catalog {
-  padding: 48px 0 60px;
+  padding: 44px 0 56px;
 }
 
 .catalog h2 {
-  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
   font-weight: 700;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
   color: #1a1a1a;
 }
 
 .products-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 20px;
 }
 
 .product-card {
-  flex: 1 1 calc(33.333% - 16px);
-  min-width: 200px;
+  flex: 1 1 calc(33.333% - 14px);
+  min-width: 180px;
 }
 
 .product-card img {
   width: 100%;
-  height: 185px;
+  height: 175px;
   object-fit: cover;
   display: block;
-  border-radius: 2px;
   background: linear-gradient(135deg, #d8d0c8 0%, #c4b49a 100%);
 }
 
 .product-card h3 {
-  font-size: 15px;
-  font-weight: 700;
-  margin-top: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
   margin-bottom: 6px;
   color: #1a1a1a;
 }
 
 .product-card p {
-  font-size: 13px;
-  color: #666;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #777;
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  font-weight: 400;
 }
 
 .product-card .price {
-  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   font-weight: 700;
   color: #1a1a1a;
 }
 
+
 footer {
-  border-top: 1px solid #e8e8e8;
-  padding: 28px 20px;
+  background-color: #f5f5f5;
+  padding: 40px 20px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #555;
 }
