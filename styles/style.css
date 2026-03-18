@@ -97,6 +97,7 @@ nav a:hover {
   align-items: flex-start;
 }
 
+/* H1 — Figma: Montserrat, SemiBold 600, 64px, line-height 70px */
 .hero h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 64px;
@@ -106,7 +107,7 @@ nav a:hover {
   margin-bottom: 12px;
 }
 
-
+/* Subtitle — Figma: Montserrat, Regular 400, 24px */
 .hero-subtitle {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
@@ -116,7 +117,7 @@ nav a:hover {
   margin-bottom: 12px;
 }
 
-
+/
 .hero-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -128,7 +129,6 @@ nav a:hover {
 .hero-link:hover {
   opacity: 0.8;
 }
-
 
 .catalog {
   padding: 44px 0 56px;
@@ -160,6 +160,7 @@ nav a:hover {
   display: block;
   background: linear-gradient(135deg, #d8d0c8 0%, #c4b49a 100%);
 }
+
 
 .product-card h3 {
   font-family: 'Montserrat', sans-serif;
